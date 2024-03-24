@@ -1,0 +1,14 @@
+first see if you are logged in by using the below command 
+heroku whoami 
+
+if you are logged in then it is okay you should add and push the changes otherwise use the below command to lgoin 
+heroku login 
+
+
+git add -A 
+git commit -m "made uncertain changes"
+git push heroku master      
+git status
+
+
+

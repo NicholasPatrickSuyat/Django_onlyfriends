@@ -1,1 +1,1 @@
-web: gunicorn django_onlyfriends.wsgi
+web: gunicorn django_project.wsgi

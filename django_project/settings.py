@@ -49,8 +49,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'django_onlyfriends.urls'
-# ROOT_URLCONF = 'django_project.urls' if in developing mode
+# ROOT_URLCONF = 'django_onlyfriends.urls'
+ROOT_URLCONF = 'django_project.urls' # if in developing mode
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -67,8 +67,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'django_onlyfriends.wsgi.application'
-# WSGI_APPLICATION = 'django_project.wsgi.application' if in developing mode
+# WSGI_APPLICATION = 'django_onlyfriends.wsgi.application'
+WSGI_APPLICATION = 'django_project.wsgi.application' # if in developing mode
 
 
 # Database

@@ -7,6 +7,7 @@ heroku login
 
 git add -A 
 git commit -m "made uncertain changes"
+git remote add heroku <heroku_git_url>
 git push heroku master      
 git status
 
